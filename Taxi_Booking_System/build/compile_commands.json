@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/taxi_booking_system.dir/booking.cpp.o -c /home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/booking.cpp",
+  "file": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/booking.cpp"
+},
+{
+  "directory": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/taxi_booking_system.dir/main.cpp.o -c /home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/main.cpp",
+  "file": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/main.cpp"
+},
+{
+  "directory": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/taxi_booking_system.dir/system.cpp.o -c /home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/system.cpp",
+  "file": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/system.cpp"
+},
+{
+  "directory": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/taxi_booking_system.dir/taxi.cpp.o -c /home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/taxi.cpp",
+  "file": "/home/vasanthanbdev/Code/System-Design/Taxi_Booking_System/taxi.cpp"
+}
+]

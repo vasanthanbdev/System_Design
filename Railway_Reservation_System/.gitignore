@@ -1,0 +1,8 @@
+# Build FIles
+build/
+
+# Output Files
+out/
+
+# VS Code Files
+.vscode/
