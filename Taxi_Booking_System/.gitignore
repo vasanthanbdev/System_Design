@@ -1,5 +1,6 @@
 # VS Code Files
 .vscode/
+.code-workspace
 
 # JSON Files
 *.json
