@@ -1,7 +1,6 @@
 #include <iostream>
 #include "system.h"
 
-
 void displayOptions()
 {
     std::cout << "\n********** Welcome to Taxi Booking System **********" << std::endl;
@@ -12,8 +11,7 @@ void displayOptions()
     std::cout << "4.Exit" << std::endl;
 }
 
-
-int main() 
+int main()
 {
     System system;
     int choice;
@@ -21,7 +19,8 @@ int main()
     while (true)
     {
         displayOptions();
-        std::cout << "\nEnter you choice: "; std::cin >> choice;
+        std::cout << "\nEnter you choice: ";
+        std::cin >> choice;
 
         switch (choice)
         {
@@ -32,6 +31,7 @@ int main()
 
         case 2:
             // book a taxi
+            system.bookTaxi();
             break;
 
         case 3:
@@ -43,10 +43,9 @@ int main()
             exit(0);
 
         default:
-            std::cout << "Enter a choice from the above list!" << std::endl;
+            std::cout << "Enter the correct choice from the above list!" << std::endl;
             break;
         }
-    
     }
 
     return 0;

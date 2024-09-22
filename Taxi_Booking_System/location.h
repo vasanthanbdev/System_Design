@@ -1,36 +1,31 @@
 #include <iostream>
 
-
 #ifndef LOCATION_H
 #define LOCATION_H
-
 
 class PointNode
 {
 public:
     char point;
-    PointNode* next;
-    PointNode* prev;
-
+    PointNode *next;
+    PointNode *prev;
 
     PointNode(
-        char point, 
-        PointNode* next = nullptr, 
-        PointNode* prev = nullptr)
+        char point,
+        PointNode *next = nullptr,
+        PointNode *prev = nullptr)
     {
         this->point = point;
         this->next = next;
         this->prev = prev;
     }
-
 };
-
 
 class LocationList
 {
 public:
-    PointNode* head;
-    PointNode* tail;
+    PointNode *head;
+    PointNode *tail;
 
     LocationList()
     {
@@ -38,26 +33,9 @@ public:
         this->tail = nullptr;
     }
 
+    void listAppend(char point);
 
-    void listAppend(char point)
-    {
-        PointNode* node = new PointNode(point);
-
-        if (head == nullptr)
-        {
-            head = node;
-            tail = node;
-        }
-        else 
-        {
-            tail->next = node;
-            node->prev = tail;
-            tail = node;
-        }
-    }
-
+    int calcDistance(PointNode *pickup_location, PointNode *drop_location);
 };
-
-
 
 #endif

@@ -153,6 +153,30 @@ booking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/taxi_booking_system.dir/build.make CMakeFiles/taxi_booking_system.dir/booking.cpp.s
 .PHONY : booking.cpp.s
 
+location.o: location.cpp.o
+.PHONY : location.o
+
+# target to build an object file
+location.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taxi_booking_system.dir/build.make CMakeFiles/taxi_booking_system.dir/location.cpp.o
+.PHONY : location.cpp.o
+
+location.i: location.cpp.i
+.PHONY : location.i
+
+# target to preprocess a source file
+location.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taxi_booking_system.dir/build.make CMakeFiles/taxi_booking_system.dir/location.cpp.i
+.PHONY : location.cpp.i
+
+location.s: location.cpp.s
+.PHONY : location.s
+
+# target to generate assembly for a file
+location.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/taxi_booking_system.dir/build.make CMakeFiles/taxi_booking_system.dir/location.cpp.s
+.PHONY : location.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... booking.o"
 	@echo "... booking.i"
 	@echo "... booking.s"
+	@echo "... location.o"
+	@echo "... location.i"
+	@echo "... location.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

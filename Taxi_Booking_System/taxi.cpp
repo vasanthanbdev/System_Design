@@ -17,14 +17,14 @@ int Taxi::getEarnings()
     return this->earnings;
 }
 
-void Taxi::setTaxiStatus(bool status)
+void Taxi::setTaxiStatus(const bool status)
 {
     this->is_booked = status;
 }
 
-void Taxi::setEarnings(int fare) 
+void Taxi::setEarnings(const int distance) 
 {
-    this->earnings += fare;
+    this->earnings = distance * 10;
 }
 
 void Taxi::printTaxiDetails()
@@ -33,4 +33,3 @@ void Taxi::printTaxiDetails()
     std::cout << "Taxi Status: " << (is_booked ? "Booked" : "Available") << std::endl;
     std::cout << "Total Earnings: " << earnings << std::endl;
 }
-

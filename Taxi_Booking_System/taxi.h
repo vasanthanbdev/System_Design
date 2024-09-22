@@ -1,5 +1,7 @@
 #include <iostream>
 
+#include "location.h"
+
 #ifndef TAXI_H
 #define TAXI_H
 
@@ -19,6 +21,7 @@ public:
         this->taxi_no = taxi_no;
         this->is_booked = false;
         this->earnings = 0;
+
     }
 
     int getTaxiNo(); 
@@ -29,7 +32,7 @@ public:
 
     void setTaxiStatus(bool status);
 
-    void setEarnings(int fare); 
+    void setEarnings(int distance); 
 
     void printTaxiDetails();
 
